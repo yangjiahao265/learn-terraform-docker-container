@@ -12,5 +12,6 @@ jetbrains:
   intellij:
     plugins:
       - com.haulmont.jpab
+      - org.intellij.plugins.hcl
     prebuilds:
       version: both
