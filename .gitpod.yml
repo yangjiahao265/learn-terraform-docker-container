@@ -1,0 +1,16 @@
+tasks:
+  - init: |
+      echo 'TODO: build project'
+    command: |
+      echo 'TODO: start app'
+
+ports:
+  - port: 8000
+    onOpen: open-preview
+
+jetbrains:
+  intellij:
+    plugins:
+      - com.haulmont.jpab
+    prebuilds:
+      version: both
