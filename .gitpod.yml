@@ -1,3 +1,4 @@
+
 tasks:
   - init: |
       echo 'TODO: build project'
@@ -8,10 +9,14 @@ ports:
   - port: 8000
     onOpen: open-preview
 
-jetbrains:
-  intellij:
-    plugins:
-      - com.haulmont.jpab
-      - org.intellij.plugins.hcl
-    prebuilds:
-      version: both
+# jetbrains:
+#   intellij:
+#     plugins:
+#       - com.haulmont.jpab
+#       - org.intellij.plugins.hcl
+#     prebuilds:
+#       version: both
+vscode:
+  extensions:
+    - GitHub.github-vscode-theme
+    - hashicorp.terraform
