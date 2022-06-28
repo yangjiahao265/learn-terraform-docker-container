@@ -1,0 +1,16 @@
+{
+    "remote.portsAttributes": {
+        "8000": {
+            "label": "Application",
+            "onAutoForward": "openPreview"
+        }
+    },
+    "remote.localPortHost": "localhost",
+    "remote.SSH.defaultForwardedPorts": [
+        {
+            "name": "servePort",
+            "localPort": 8000,
+            "remotePort": 8000,
+        },
+    ]
+}
